@@ -3,6 +3,7 @@
 #--------------------------#
 
 /app/etc/local.xml
+/app/etc/env.php
 
 /media/*
 !/media/.htaccess
@@ -41,3 +42,5 @@
 /var/package/*
 !/var/package/*.xml
 
+/pub/static/*
+/generated/*
