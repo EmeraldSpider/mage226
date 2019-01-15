@@ -3,6 +3,10 @@
 #--------------------------#
 
 /app/etc/local.xml
+/app/etc/config.php
+/app/etc/env.php
+
+/generated/code/
 
 /media/*
 !/media/.htaccess
@@ -40,4 +44,8 @@
 !/var/package
 /var/package/*
 !/var/package/*.xml
+
+/pub/media/captcha/
+/pub/static/adminhtml/
+/pub/static/deployed_version.txt
 
